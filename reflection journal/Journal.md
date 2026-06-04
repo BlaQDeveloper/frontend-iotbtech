@@ -21,4 +21,20 @@ ENGINEERING BEST PRACTICE
 CLASS 02 - THEORY
 1. Difference between <em> and <i> is that <em> is used when you want to make an emphasis ie verbal stress on a word in a sentence e.g <em>Don't</em> swim here, it is a private property while <i> is just used to italize a word in a sentence e.g <i>The New York Times</i>.
 
-2. <img>, <a> and <button>
+2. <img>, <a> and <button> are treat specially by the browser because <img> has an alt attribute that the screen reader tells the users the name of the image, the broswer tells the users any thing wiithin the <a> that it is a link and the browser tells the user anything within the <button> element that it is a button.
+
+3. Aria-label attribute is used when a button is without a text or you have a clickable image in your website if not then just fix your HTML structure.
+
+
+ACCESSIBILITY REFLECTION
+
+1. I check the INEC portal website, i could go through the website using tab and the navigation link dropdown had well structure dropdown with clear hover states with clickable logo that direct users to its website.
+
+
+PRODUCT THINKING
+
+1. <h1>Food API Documentation</h1>
+    <h2>Overview</h2>
+    <h2>How to use the api</h2>
+    <h2>Measures/Precaution</h2>
+    <h3>Debugging details if error is encountered.</h3>
