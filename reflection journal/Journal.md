@@ -1,0 +1,24 @@
+CLASS 01 - THEORY
+
+1.  DOM TREE ---> RENDER TREE ---> LAYOUT ---> PAINT
+    DOM TREE consist all the structure and the content of a HTML document that will be render on the browser, then the RENDER TREE that is like the combination of both a HTML structure and CSS which is going to be rendered on the browser. As the CSS and HTML document is being rendered, the LAYOUT is the way the elements, the sizes of the elements are being positioned on the browser or within the viewport of any device. PAINT is final stage that converts all the processes in the render tree and layout into actual pixels that the user see on his/her browser's screen.
+
+2.  HTTP/3 uses QUIC instead of TCP because it improves the performance of web applications by establishing number of connections between two endpoints using UDP and also it allows multiple streams of data to reach endpoints independently enabling faster connections. It matters because it makes websites with many resources like images, CSS files and scripts load faster, it improves performance over congested netowrks by preventing data blockages and it is also encrypted.
+
+3.  I do not know any website that did not use semantic html properly but the clues that tells if a website did not uses semantic html properly is that it will be difficult for users to navigate through the website, browsers won't be able to perceive the content's structure and present it accordingly and search engines won't be to understand the logical structure of the content.
+
+PRODUCT THINKING
+
+1. Semantic html used when building a website like a blog enables the website to be understood by search engines and accessible by users through search engine optimization.
+2. When building a multiplayer game, the edge computing benefits that will matter most to me, will the reduction of latency and improved network efficiency because with edge computing data that takes time to travel will be processed and stored close to where it was created thereby reducing lag time and data are locally so that less data travels between networks thereby improving network efficiency.
+
+ENGINEERING BEST PRACTICE
+
+1. I totally disagree because semantic html enables the content of a website to be perceived by browser, easily navigated and acessible by the users through sarch engines. Semantic html makes your code clean and well structured and readable by other developers.
+
+
+
+CLASS 02 - THEORY
+1. Difference between <em> and <i> is that <em> is used when you want to make an emphasis ie verbal stress on a word in a sentence e.g <em>Don't</em> swim here, it is a private property while <i> is just used to italize a word in a sentence e.g <i>The New York Times</i>.
+
+2. <img>, <a> and <button>
