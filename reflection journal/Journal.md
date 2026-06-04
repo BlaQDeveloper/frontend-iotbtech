@@ -53,3 +53,32 @@ THEORY
 
 ENGINEERING THINKING
 1. <picture> element along with <source> will used with possible formats like webp and jpeg so that the browser will image format to fall back making the website responsive and incase of lazy loading.
+
+
+
+
+CLASS 04 - MODERN FORMS AND USER EXPERIENCE
+
+THEORY
+1. When a user data is entered, the browser checks the data if it is in a correct format before sending it to the server if not the user is prompt to input the valid format but if the invalid data reaches the server it is rejected and there is noticeable delay caused by the trip to the server and then back to the client-side to tell the user to fix their data.
+
+2. Autocomplete attribute gives permission to the browser for automated assistance in filling out form field values. Examples of autocomplete values are on, off, tel, email, country etc
+-- on: This gives the the browser for automated assistance in filling out form field values.
+-- off: The browser is not permitted to automatically select or enter a value for a form field.
+-- tel: Request for automated full telephone number including country code.
+-- email: Request for automated email address.
+-- country: Request for automated country code.
+
+
+PRODUCT THINKING
+1. 
+
+
+
+
+
+
+
+
+
+
