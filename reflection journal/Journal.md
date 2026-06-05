@@ -81,3 +81,7 @@ ENGINEERING BEST PRACTICE
 
 
 
+CLASS 04 - CSS ENGINE (BOX MODEL AND SPECIFICITY)
+
+THEORY
+1.  ![box showing the content, padding and margin](box-model.JPG)
