@@ -71,14 +71,8 @@ THEORY
 
 
 PRODUCT THINKING
-1. 
+1. LocalStorage will be used to store the data locally if the user loses internet while the required attribute will be used to make an input mandatory and will display an error if the input is empty.
 
-
-
-
-
-
-
-
+2. <select> is used in forms when the options are logically ordered and it offers the best accessibility because it is supported by screen-readers.
 
 
