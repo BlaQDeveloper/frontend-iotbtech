@@ -21,9 +21,9 @@ ENGINEERING BEST PRACTICE
 CLASS 02 - TYPOGRAPHY AND INFORMATION HIERARCHY
 
 THEORY
-1. Difference between <em> and <i> is that <em> is used when you want to make an emphasis ie verbal stress on a word in a sentence e.g <em>Don't</em> swim here, it is a private property while <i> is just used to italize a word in a sentence e.g <i>The New York Times</i>.
+1. Difference between emphasis tag and italic tag is that em element is used when you want to make an emphasis ie verbal stress on a word in a sentence e.g <em>Don't</em> swim here, it is a private property while italic element is just used to italize a word in a sentence e.g <i>The New York Times</i>.
 
-2. <img>, <a> and <button> are treat specially by the browser because <img> has an alt attribute that the screen reader tells the users the name of the image, the broswer tells the users any thing wiithin the <a> that it is a link and the browser tells the user anything within the <button> element that it is a button.
+2. img, anchor element and button element are treat specially by the browser because img has an alt attribute that the screen reader tells the users the name of the image, the broswer tells the users any thing wiithin the anchor element that it is a link and the browser tells the user anything within the button element that it is a button.
 
 3. Aria-label attribute is used when a button is without a text or you have a clickable image in your website if not then just fix your HTML structure.
 
@@ -52,7 +52,7 @@ THEORY
 
 
 ENGINEERING THINKING
-1. <picture> element along with <source> will used with possible formats like webp and jpeg so that the browser will image format to fall back making the website responsive and incase of lazy loading.
+1. picture element along with source element will used with possible formats like webp and jpeg so that the browser will image format to fall back making the website responsive and incase of lazy loading.
 
 
 
@@ -73,6 +73,6 @@ THEORY
 PRODUCT THINKING
 1. LocalStorage will be used to store the data locally if the user loses internet while the required attribute will be used to make an input mandatory and will display an error if the input is empty.
 
-2. <select> is used in forms when the options are logically ordered and it offers the best accessibility because it is supported by screen-readers.
+2. select element is used in forms when the options are logically ordered and it offers the best accessibility because it is supported by screen-readers.
 
 
