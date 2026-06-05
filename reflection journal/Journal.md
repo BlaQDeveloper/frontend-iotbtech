@@ -76,3 +76,8 @@ PRODUCT THINKING
 2. select element is used in forms when the options are logically ordered and it offers the best accessibility because it is supported by screen-readers.
 
 
+ENGINEERING BEST PRACTICE
+1. The password input box will have a type, name, maxlength and minlength, required, autocomplete, pattern and placeholder attribute.
+
+
+
