@@ -84,6 +84,7 @@ ENGINEERING BEST PRACTICE
 CLASS 05 - CSS ENGINE (BOX MODEL AND SPECIFICITY)
 
 THEORY
+  
   ![box showing the content, padding and margin](box-model.JPG)
  1. if two divs are adjacent each other with a margin-top of 20px and a margin-bottom of 30px, i think the space between them will be 30px because of margin collapsing that helps set consistent spacing.
 
