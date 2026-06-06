@@ -142,3 +142,5 @@ THEORY
 1a. When you want to create a three dimensional website, you used CSS Grid not Flexbox
 b. For a perfect page layout in your website.
 c. Making layouts more readable and maintainable by using grid-areas.
+
+2. Grid-template areas are areas within the grid layout. It only makes to use grid-template area if you want to draw your layout as ASCII map directly in CSS.
