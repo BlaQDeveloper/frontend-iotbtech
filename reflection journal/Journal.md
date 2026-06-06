@@ -108,3 +108,23 @@ By default box-sizing is content-box, according to the CSS declaration, the box 
     box-sizing: border-box;
 }
 According to the CSS declaration, the box will be 300px including the padding and border.
+
+
+
+CLASS 06 - FLEXBOX MASTERY
+
+THEORY
+1. Difference between flex basis, flex shrink and flex grow is that flex grow specify how much a flex item grow relative to its fellow flex items, flex shrink is the opposite of flex grow i.e it specify how much a flex item shrink relative to its fellow flex items and flex basis set the initial length of a flex item and is not relative to its flex items.
+
+2. I think when align-items: stretch is applied to the flex item not the parent-container, it will not work as expected
+e.g .parent-container {
+    display: flex;
+    flex-direction: column;
+}
+.flex-item {
+    align-items: stretch;
+}
+
+
+ENGINEERING THINKING
+1. 
