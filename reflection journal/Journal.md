@@ -131,3 +131,19 @@ e.g .parent-container {
 ENGINEERING THINKING
 ![navigation bar](navigation-bar.JPG)
 1. My nav element is within my header element as the header element will act the flex container for both my logo which is in a div as i apply color to sheba which is in a span element, my nav-links which is in a nav element and my sign in button element. Within my nav element I have 5 nav-links, I apply display: flex; to my nav element making the nav-links flex, justify-content: space-evenly to give equal spacing between each nav-links, text-decoration: none;, color: black; to remove the link text decoration and turns it color black then align-items: center to center the nav-links. I apply display: flex; to make both my logo, nav-links and sign in button flex, justify-content: space-between; to create space between logo, nav-links and sign in button and align-items: center to align them to the center then I applied padding and color to the sign in button with border radius of 50px.
+
+
+
+
+
+
+
+
+
+
+CLASS 07 - CSS GRID AND LAYOUT COMPLEXITY
+
+THEORY
+1a. When you want to create a three dimensional website, you used CSS Grid not Flexbox
+b. For a perfect page layout in your website.
+c. Making layouts more readable and maintainable by using grid-areas.

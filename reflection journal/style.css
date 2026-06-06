@@ -1,0 +1,13 @@
+.instagram-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.hamburger {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    width: 20px;
+}
