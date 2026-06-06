@@ -92,3 +92,19 @@ THEORY
 
 
 ENGINEERING THINKING
+1. By default, the padding and border is added to the width so 10px of padding is added to the width of the element, to fix this you apply the box-sizing: border-box CSS declaration.
+
+2. .box {
+    width: 200px;
+    padding: 20px;
+    border: 5px solid black;
+    box-sizing: content-box;
+} 
+By default box-sizing is content-box, according to the CSS declaration, the box will be 250px i.e the width plus the height of the content excluding the padding and border.
+.box {
+    width: 300px;
+    padding: 20px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+According to the CSS declaration, the box will be 300px including the padding and border.
