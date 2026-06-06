@@ -84,4 +84,11 @@ ENGINEERING BEST PRACTICE
 CLASS 04 - CSS ENGINE (BOX MODEL AND SPECIFICITY)
 
 THEORY
-1.  ![box showing the content, padding and margin](box-model.JPG)
+1.  ![box showing the content, padding and margin](box-model.JPG), if two divs are adjacent each other with a margin-top of 20px and a margin-bottom of 30px, i think the space between them will be 30px because of margin collapsing that helps set consistent spacing.
+
+2. CSS Specificity is the rule that determine which style is applied on an element. In CSS specificity hierarchy, inline styles takes the highest priority, id selectors takes second highest priority, classes takes the third highest while elements takes the lowest priority. Between .header nav ul li a, nav a.active and .nav-links a, .header nav ul li a wins because it has 1 class and 4 elements while nav a.active has 1 class and 2 elements and .nav-links a has 1 class and 1 elements.
+
+3. Cascade is the way browser solves conflicts when multiple CSS rules are applied to an HTML element. When multiple same CSS rules are applied to an HTML element, the browser resolve that by selecting the CSS rule to apply based on its position or specificity.
+
+
+ENGINEERING THINKING
