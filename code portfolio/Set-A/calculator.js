@@ -36,3 +36,15 @@ function factorial(num) {
     return result;
 }
 
+function mathOperation(operation) {
+    const operations = {
+        "add": add,
+        "subtract": subtract,
+        "multiply": multiply,
+        "divide": divide,
+        "power": power,
+        "squareRoot": squareRoot,
+        "factorial": factorial
+    };
+    return operations[operation];
+}

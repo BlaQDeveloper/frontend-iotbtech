@@ -1,0 +1,1 @@
+Calculator performing basic operations like add, subtract and also scientific operations like factorial using higher order function for operation selection with error handling concerning a number being divided by zero or square root of a negative number.
