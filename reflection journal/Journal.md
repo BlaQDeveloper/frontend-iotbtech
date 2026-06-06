@@ -84,7 +84,8 @@ ENGINEERING BEST PRACTICE
 CLASS 05 - CSS ENGINE (BOX MODEL AND SPECIFICITY)
 
 THEORY
-1.  ![box showing the content, padding and margin](box-model.JPG), if two divs are adjacent each other with a margin-top of 20px and a margin-bottom of 30px, i think the space between them will be 30px because of margin collapsing that helps set consistent spacing.
+  ![box showing the content, padding and margin](box-model.JPG)
+ 1. if two divs are adjacent each other with a margin-top of 20px and a margin-bottom of 30px, i think the space between them will be 30px because of margin collapsing that helps set consistent spacing.
 
 2. CSS Specificity is the rule that determine which style is applied on an element. In CSS specificity hierarchy, inline styles takes the highest priority, id selectors takes second highest priority, classes takes the third highest while elements takes the lowest priority. Between .header nav ul li a, nav a.active and .nav-links a, .header nav ul li a wins because it has 1 class and 4 elements while nav a.active has 1 class and 2 elements and .nav-links a has 1 class and 1 elements.
 
@@ -127,4 +128,5 @@ e.g .parent-container {
 
 
 ENGINEERING THINKING
-1. 
+![navigation bar](navigation-bar.JPG)
+1. My nav element is within my header element as the header element will act the flex container for both my logo which is in a div as i apply color to sheba which is in a span element, my nav-links which is in a nav element and my sign in button element. Within my nav element I have 5 nav-links, I apply display: flex; to my nav element making the nav-links flex, justify-content: space-evenly to give equal spacing between each nav-links, text-decoration: none;, color: black; to remove the link text decoration and turns it color black then align-items: center to center the nav-links. I apply display: flex; to make both my logo, nav-links and sign in button flex, justify-content: space-between; to create space between logo, nav-links and sign in button and align-items: center to align them to the center then I applied padding and color to the sign in button with border radius of 50px.
