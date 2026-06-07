@@ -144,3 +144,34 @@ b. For a perfect page layout in your website.
 c. Making layouts more readable and maintainable by using grid-areas.
 
 2. Grid-template areas are areas within the grid layout. It only makes to use grid-template area if you want to draw your layout as ASCII map directly in CSS.
+
+
+Before this break, I knew…
+(List 3 things)
+Functions
+Data structures and Objects
+Control flow
+
+
+During this break, I learned…
+(List 3 things)
+Regular Expression
+Loops
+Responsive Design
+
+
+I'm still confused about…
+(2 things — be honest)
+Promises and callback
+Async and await
+
+My growth areas…
+(3 specific things)
+Research
+Logical thinking
+Not relying on AI for logical reasoning breakdown
+
+
+One thing I'll do differently in the next project…
+(1 specific thing)
+Time Management
